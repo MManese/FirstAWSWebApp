@@ -8,7 +8,7 @@ http.createServer(function (request, response) {
    response.writeHead(200, {'Content-Type': 'text/plain'})
 
    // Send the response body as "Hello World"
-   response.end('Yes! I Deployed My First Web Application by creating my first web server via AWS! I Am Awesome! \n')
+   response.end('Hello Maryville!!! \n')
 }).listen(3333)
 
 // Console will print the message
